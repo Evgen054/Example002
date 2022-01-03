@@ -1,7 +1,7 @@
 ﻿Console.WriteLine ("Введите ваше имя");
 string username = Console.ReadLine();
 
-if (username == "Евгений")
+if (username.ToLower() == "евгений") // ToLower - преобразует текст к нижнему регистру
 {
      Console.Write ("Ура! Это же, Евгений!!!");
 }
