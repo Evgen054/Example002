@@ -12,7 +12,8 @@ for (int i = 0; i < 12; i++)
 
  //КОД АНТОНА
 
- // Создание массива
+ //Создание массива
+ 
 void CreatArray (int [] array)
 {
     for (int i = 0; i < array.Length; i++)
