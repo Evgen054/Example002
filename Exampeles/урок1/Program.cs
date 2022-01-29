@@ -1,11 +1,13 @@
-﻿int n = new Random().Next(1, 10);
-
-int i = 1;
-while (i < n)
+﻿string Method4(int count, string text)
 {
-    int kvadratchisla = i * i;
-   
-    Console.WriteLine("Квадрат числа " + i + " = " + squarenumbers);
-    i++;
+    string result = string.Empty;
+    for (int i = 0; i < count; i++)
+    {
 
+        result = result + text;
+
+    }
+    return result;
 }
+string res = Method4(5, "Z");
+Console.WriteLine(res);
